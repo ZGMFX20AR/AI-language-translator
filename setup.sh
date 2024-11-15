@@ -17,7 +17,7 @@ source whisper_venv/bin/activate
 # Download PyTorch wheel from https://developer.nvidia.com/embedded/downloads#?search=pytorch
 echo "Installing manually downloaded PyTorch wheel (optional)..."
 # Example pip install >name of the wheel file<.whl
-pip install torch-2.5.0a0+872d972e41.nv24.08.17622132-cp310-cp310-linux_aarch64.whl
+pip install torch-2.1.0a0+41361538.nv23.06-cp38-cp38-linux_aarch64.whl
 
 # Step 5: Install Whisper and other Python dependencies
 echo "Installing Whisper and other Python packages..."
